@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Primitive datu tipi</title>
+
+    <style>
+        .col {
+            text-align: left;
+            margin-left: 150px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-right: 150px;
+        }
+        .col button {
+         border: 2px solid white;
+         background-color: transparent;
+         color: white;
+         padding: 14px 28px;
+         font-size: 16px;
+         cursor: pointer;
+         border-radius: 12px;
+      }   
+    </style>
+
+</head>
+<body>
+
+    <div class="top-container"> 
+
+      <div class="menu">
+        <ul>
+            <a href="datuTipi.html"><li>Dati tipi</li></a>
+            <a href="mainigie.html"><li>Mainīgie</li></a>
+            <a href="video.html"><li>Video</li></a>
+            <a href="index.html"><li>Sākums</li></a>
+        </ul>
+    </div>
+        
+    </div>
+
+    <h1 class="datu-tipa-nosaukums">Primitive</h1>
+    <a href="primitiveTabula.PNG"><img class = "primitiveTabula" src="primitiveTabula.PNG"></a>
+    <hr>
+
+    <h1 class="text-start">Primitive data tipi</h1>
+
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Boolean data tips
+        </div>
+        <div class="col">
+            Boolean ir datu tips, kam ir tikai paradzētas divas iespējamās vērtības – True vai False. Paradzēts, lai attēlotu divas loģikas.
+            <br>
+            <a href="DataTipsBoolean.PNG"><button class="button">Pamatdarbības ar Boolean</button></a>         
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Byte data tips
+        </div>
+        <div class="col">
+            Byte ir data tips ar 8-bit. Šis data tips ir paradzēts, lai samazinātu izmērus lielos masīvos. Maksimāla vērtība ir 127 un minimālā ir -128.
+            <br>
+            <a href="DataTipsByte.PNG"><button class="button">Pamatdarbības ar Byte</button></a>           
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Char data tips
+        </div>
+        <div class="col">
+            Char data tips ir viens 16-bit Unicode simbols. Unicode ir universāls rakstzīmju kodējums. Simbolu maksimālā un minimālā vērtība ir 0 līdz 255 no ASCII vērtībām.
+            <br>
+            <a href="DataTipsChar.PNG"><button class="button">Pamatdarbības ar Char</button></a>           
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Short data tips
+        </div>
+        <div class="col">
+            Short data tips ir gandrīz identisks kā byte data tips.  Short data tipam ir 16-bit, un viņu arī izmanto, lai samazīnāt izmēru lielos masīvos. Minimāla un maksimālā vērtība ir -32,768 līdz 32,767 
+            <br>
+            <a href="DataTipsShort.PNG"><button class="button">Pamatdarbības ar Short</button></a>      
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Int data tips
+        </div>
+        <div class="col">
+            Int data tips ir vispopulārākais vesalu skaitļu data tips. Int data tipam ir 32-bit. Minimālā un maksimālā vertība ir 2,147,483,647 un - 2,147,483,648 
+            <br>
+            <a href="DataTipsInt.PNG"><button class="button">Pamatdarbības ar Int</button></a>          
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Long data tips
+        </div>
+        <div class="col">
+            Long data tips ir gandrīz identisks kā int, bet daudz lielāks. Data tipam ir 64-bit. Šo data tipu izmanto ja tiek strādāts ar lieliem skaitļiem. Maksimāla un minimālā vērtība ir -9,223,372,036,854,775,808 līdz 9,223,372,036,854,775,807 
+            <br>
+            <a href="DataTipsLong.PNG"><button class="button">Pamatdarbības ar Long</button></a>          
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Float data tips
+        </div>
+        <div class="col">
+            Float data tips ir floating-point cipars(Skaitļi ar komatiem) Data tipam ir 32-bit. Šo data tipu izmanto precizitātei. Maksimālā vērtība ir līdz 7 decimāl cipariem. 
+            <br>
+            <a href="DataTipsFloat.PNG"><button class="button">Pamatdarbības ar Float</button></a>     
+        </div>
+
+    </div>
+
+    <hr>
+    <div class="row align-items-center">
+
+        <div class="col" style="font-size: 40px;">
+          Double data tips
+        </div>
+        <div class="col">
+            Double ir data tips ar 64-bit. Floating-point cipars, Double data tips tiek izmantots kā noklusējuma data tips priekš decimāl cipariem. Atšķirība start double un float ir, ka float tiek izmantots, ka ir vajadzīga labāka precizitāte.
+            <br>
+            <a href="DataTipsDouble.PNG"><button class="button">Pamatdarbības ar Double</button></a>            
+        </div>
+
+    </div>
+</body>
+</html>
